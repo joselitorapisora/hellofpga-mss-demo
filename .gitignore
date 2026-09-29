@@ -1,0 +1,59 @@
+# Eclipse / SoftConsole workspace metadata
+/.metadata/
+**/.settings/
+
+# Libero generated project data
+/tooldata/
+/synthesis/
+/smartgen/
+/component/work/
+/designer/**/COMPILE/
+/designer/**/export/
+/designer/**/projectData/
+
+# Generated Libero reports, databases, logs, and intermediate files
+*.adb
+*.afl
+*.cfrt
+*.dat
+*.db
+*.def
+*.est
+*.fse
+*.log
+*.map
+*.msg
+*.rpt
+*.rptmap
+*.seg
+*.so
+*.srd
+*.srm
+*.srr
+*.szr
+*.tlg
+*.xml
+*.bak
+
+# Firmware build output (firmware/.gitignore covers these too)
+*.d
+*.elf
+*.lst
+*.o
+
+# Simulation-generated files and local tool state
+/simulation/modelsim.ini
+/simulation/modelsim.ini.sav
+*.wlf
+*.vcd
+*.ucdb
+*.exe
+*.jou
+*.str
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~

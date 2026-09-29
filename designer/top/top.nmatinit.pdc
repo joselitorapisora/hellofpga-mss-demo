@@ -1,0 +1,34 @@
+# Microchip Physical design constraints file
+
+# Version: 2026.1 2026.1.0.17
+
+# Design Name: top 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S010 , Package: 256 VF , Speed grade: -1 
+
+# Date generated: Mon Aug 31 10:03:29 2026 
+
+
+#
+# I/O constraints
+#
+
+set_io LED1_debug -DIRECTION OUTPUT -pinname T12 -fixed no
+set_io LED2_debug -DIRECTION OUTPUT -pinname T13 -fixed no
+set_io LED3_debug -DIRECTION OUTPUT -pinname G13 -fixed no
+set_io UART_RX -DIRECTION INPUT -pinname L14 -fixed no
+set_io UART_TX -DIRECTION OUTPUT -pinname L13 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location mss_inst/mymss_sb_0/FABOSC_0/I_RCOSC_25_50MHZ -fixed no 396 92
+set_location mss_inst/mymss_sb_0/CCC_0/GL0_INST/U0_RGB1 -fixed no 218 102
+set_location mss_inst/mymss_sb_0/CCC_0/GL0_INST -fixed no 220 54
+set_location ip_interface_inst -fixed no 191 0
+set_location flash_freeze_inst/INST_FLASH_FREEZE_IP -fixed no 396 8
+set_location mss_inst/mymss_sb_0/CCC_0/CCC_INST -fixed no 390 92
+set_location mss_inst/mymss_sb_0/mymss_sb_MSS_0/MSS_ADLIB_INST -fixed no 300 104

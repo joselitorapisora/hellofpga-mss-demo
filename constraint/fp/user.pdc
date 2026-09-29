@@ -1,0 +1,29 @@
+# Microchip Physical design constraints file
+
+# Version: 2026.1 2026.1.0.17
+
+# Design Name: top 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S010 , Package: 256 VF , Speed grade: -1 
+
+# Date generated: Sun Aug 30 20:46:21 2026 
+
+
+#
+# Local clock constraints
+#
+
+
+#
+# Region constraints
+#
+
+
+#
+# Core cell constraints
+#
+
+set_location mss_inst/mymss_sb_0/CCC_0/GL0_INST -fixed yes 220 54
+set_location mss_inst/mymss_sb_0/CCC_0/CCC_INST -fixed yes 390 92

@@ -1,0 +1,7 @@
+/Debug/*
+/Release/*
+!/Debug/*.hex
+!/Release/*.hex
+/Debug-*/
+/Release-*/
+/core
